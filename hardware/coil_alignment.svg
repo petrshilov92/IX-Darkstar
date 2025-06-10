@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="800" height="400" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="100%" height="100%" fill="#111111"/>
+
+  <!-- Labels -->
+  <text x="400" y="30" fill="#00ffcc" font-size="20" text-anchor="middle">IX-Darkstar Coil Alignment Diagram</text>
+
+  <!-- Rebound Tube -->
+  <rect x="100" y="100" width="600" height="40" fill="#222222" stroke="#00ffff" stroke-width="2"/>
+  <text x="400" y="95" fill="#ffffff" font-size="14" text-anchor="middle">Rebound Tube (Vacuum Sealed)</text>
+
+  <!-- Kinetic Core Mass -->
+  <circle cx="400" cy="120" r="18" fill="#ffcc00" stroke="#ffaa00" stroke-width="2"/>
+  <text x="400" y="165" fill="#ffaa00" font-size="12" text-anchor="middle">Kinetic Mass</text>
+
+  <!-- Magnetic Coils -->
+  <rect x="150" y="90" width="10" height="60" fill="#00ff00"/>
+  <rect x="200" y="90" width="10" height="60" fill="#00ff00"/>
+  <rect x="250" y="90" width="10" height="60" fill="#00ff00"/>
+  <rect x="300" y="90" width="10" height="60" fill="#00ff00"/>
+  <rect x="350" y="90" width="10" height="60" fill="#00ff00"/>
+  <rect x="450" y="90" width="10" height="60" fill="#00ff00"/>
+  <rect x="500" y="90" width="10" height="60" fill="#00ff00"/>
+  <rect x="550" y="90" width="10" height="60" fill="#00ff00"/>
+  <rect x="600" y="90" width="10" height="60" fill="#00ff00"/>
+  <rect x="650" y="90" width="10" height="60" fill="#00ff00"/>
+  <text x="400" y="190" fill="#00ff00" font-size="12" text-anchor="middle">Induction Coils (Pulse Driver Array)</text>
+
+  <!-- Direction Arrow -->
+  <line x1="400" y1="220" x2="400" y2="270" stroke="#ffffff" stroke-width="2" marker-end="url(#arrowhead)"/>
+  <text x="400" y="290" fill="#ffffff" font-size="12" text-anchor="middle">Net Drift Direction</text>
+
+  <!-- Arrowhead definition -->
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="5" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#ffffff"/>
+    </marker>
+  </defs>
+</svg>
