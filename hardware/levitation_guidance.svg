@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="800" height="450" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="100%" height="100%" fill="#111111"/>
+
+  <!-- Title -->
+  <text x="400" y="30" fill="#00ccff" font-size="20" text-anchor="middle">IX-Darkstar Levitation Guidance Diagram</text>
+
+  <!-- Rebound Tube Core -->
+  <rect x="150" y="200" width="500" height="50" rx="8" fill="#333333" stroke="#00ffff" stroke-width="2"/>
+  <text x="400" y="195" fill="#ffffff" font-size="14" text-anchor="middle">Central Rebound Tube (Floating)</text>
+
+  <!-- Levitation Rails -->
+  <rect x="150" y="160" width="500" height="10" fill="#00ff99"/>
+  <rect x="150" y="260" width="500" height="10" fill="#00ff99"/>
+  <text x="400" y="150" fill="#00ff99" font-size="12" text-anchor="middle">Magnetic Levitation Rails</text>
+
+  <!-- Field Lines (simulated force lines) -->
+  <path d="M 200 160 Q 225 180 200 200" stroke="#ff00cc" stroke-width="2" fill="none"/>
+  <path d="M 250 160 Q 275 180 250 200" stroke="#ff00cc" stroke-width="2" fill="none"/>
+  <path d="M 300 160 Q 325 180 300 200" stroke="#ff00cc" stroke-width="2" fill="none"/>
+  <path d="M 350 160 Q 375 180 350 200" stroke="#ff00cc" stroke-width="2" fill="none"/>
+  <path d="M 450 160 Q 475 180 450 200" stroke="#ff00cc" stroke-width="2" fill="none"/>
+  <path d="M 500 160 Q 525 180 500 200" stroke="#ff00cc" stroke-width="2" fill="none"/>
+  <path d="M 550 160 Q 575 180 550 200" stroke="#ff00cc" stroke-width="2" fill="none"/>
+  <path d="M 600 160 Q 625 180 600 200" stroke="#ff00cc" stroke-width="2" fill="none"/>
+
+  <text x="400" y="330" fill="#ff00cc" font-size="12" text-anchor="middle">Field Lines Showing Repulsion Lift Envelope</text>
+
+  <!-- Bottom Notes -->
+  <text x="400" y="410" fill="#cccccc" font-size="12" text-anchor="middle">
+    Zero-contact suspension maintained via active magnetic feedback at top and bottom rails
+  </text>
+</svg>
